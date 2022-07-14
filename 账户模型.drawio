@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-13T06:48:18.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vNiA6R8RavO-BkLRiMJD" version="20.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-07-14T00:50:22.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JSGTxNCS0tpZ6b91NZ_i" version="20.1.1" type="github" pages="4">
   <diagram id="f6H1rkS5LVtp8DxBB44C" name="账户模型">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,17 +24,6 @@
             <mxPoint x="15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CPrKHJD8Jtr9ogx_GKBD-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" source="CPrKHJD8Jtr9ogx_GKBD-2" target="CPrKHJD8Jtr9ogx_GKBD-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="414" y="249.5" as="sourcePoint" />
-            <mxPoint x="548" y="249.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="CPrKHJD8Jtr9ogx_GKBD-9" value="收款" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontColor=#5C5C5C;" parent="CPrKHJD8Jtr9ogx_GKBD-8" connectable="0" vertex="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="15" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="CPrKHJD8Jtr9ogx_GKBD-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;交易媒介&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#5C5C5C;" parent="1" vertex="1">
           <mxGeometry x="349" y="285" width="60" height="30" as="geometry" />
         </mxCell>
@@ -50,8 +39,8 @@
         <mxCell id="CPrKHJD8Jtr9ogx_GKBD-16" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;流出&lt;/font&gt;" style="shape=tape;whiteSpace=wrap;html=1;fontSize=18;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
           <mxGeometry x="500" y="385" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CPrKHJD8Jtr9ogx_GKBD-17" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;账户余额&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=18;direction=south;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
-          <mxGeometry x="332" y="395" width="94" height="60" as="geometry" />
+        <mxCell id="CPrKHJD8Jtr9ogx_GKBD-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;账户余额&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=18;direction=south;fillColor=#21C0A5;strokeColor=#006658;fontColor=#5C5C5C;" parent="1" vertex="1">
+          <mxGeometry x="321" y="395" width="116" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CPrKHJD8Jtr9ogx_GKBD-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;账户模型：&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#5C5C5C;" parent="1" vertex="1">
           <mxGeometry x="50" y="410" width="100" height="30" as="geometry" />
@@ -68,11 +57,22 @@
             <mxPoint x="420" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="wtZnPB225sG8BclY1YyY-1" value="" style="endArrow=classic;html=1;rounded=1;sketch=0;fontSize=14;fontColor=#5C5C5C;strokeColor=#006658;fillColor=#21C0A5;" edge="1" parent="1" target="CPrKHJD8Jtr9ogx_GKBD-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="250" as="sourcePoint" />
+            <mxPoint x="480" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wtZnPB225sG8BclY1YyY-2" value="收款" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#5C5C5C;" vertex="1" connectable="0" parent="wtZnPB225sG8BclY1YyY-1">
+          <mxGeometry x="0.1846" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="QtaU4OuOjG64xkX3miVt" name="账户分类">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="v-5f1s4mG_udccxqr9EY" name="账户协同">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -283,6 +283,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8zW2wPIlCJueTper45Gf" name="支付系统架构">
+    <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
